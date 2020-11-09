@@ -1,0 +1,182 @@
+
+    @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+    html, body {
+      height:100%;
+      width: 100%;
+      font-family: "Poppins", sans-serif;
+      color: #222;
+      background-color:  #F8F8FF; 
+    }
+    
+    .navbar{
+      padding: .8rem;
+    }
+    
+    .navbar-nav li {
+      padding-right:20px
+    }
+    .nav-link {
+      font-size: 1.1rem !important;
+    }
+     
+    .carousel{
+      margin-left: 15%;
+      margin-right: 15%;
+    }
+
+    .carousel-inner img {
+      width: 600px;
+      height: 600px;
+    }
+
+    .carousel-caption  {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      
+    }
+
+    .carousel-caption h1{
+      font-size: 500%;
+      text-shadow: 1px 1px 15px #000;
+    }
+
+    
+   .carousel-caption h3{
+     font-size: 200%;
+     font-weight: 500;
+     text-shadow: 1px 1px 10px #000;
+    }
+
+    
+    .padding{
+      padding-bottom : 2rem;
+    }
+
+    .welcome {
+      width: 75%;
+      margin: 0 auto;
+      padding-top: 2rem;
+    }
+
+    .welcome hr{
+      border-top: 2px solid #b4b4b4;
+      width: 95%;
+      margin-top: .3rem;
+      margin-bottom: .3rem;
+    }
+
+    .fa-code{
+      color: #e54d26;
+    }
+
+    .fa-bold {
+      color:#563d7c;
+    }
+
+    .fa-css3 {
+      color:#2163af;
+    }
+
+    .fa-js-square{
+      color: rgb(51, 51, 51);
+    }
+    .fa-github-alt{
+      color: purple; 
+     }
+    .fa-code:hover,
+    .fa-css3:hover,
+    .fa-linux:hover,
+    .fa-js-square:hover,
+    .fa-bold:hover,
+    .fa-github-alt:hover{
+      color: #d5d5d5;
+    }
+    .fa-code, .fa-bold, .fa-css3, .fa-js-square, .fa-linux, .fa-github-alt{
+      font-size: 4em;
+      margin: 1 rem;
+    }
+   
+    .card-img-top {
+      height: 400px;
+      width: 436px;
+    }
+
+    .social a {
+      font-size: 4.5em;
+      padding: 3rem;
+    }
+    .fa-linkedin {
+      color: #0e76a8;
+    }
+    .fa-github-square {
+      color: purple; 
+    }
+   .fa-envelope-open-text {
+     color: black;
+   }
+   
+  
+  .fa-linkedin:hover,
+  .fa-github-square:hover,
+  .fa-envelope-open-text:hover{
+    color: #d5d5d5;
+  }
+   #showMore1 {
+     display: none;
+   }
+
+   #showMore2 {
+    display: none;
+  }
+
+  #showMore3 {
+    display: none;
+  }
+   
+    /*---Media Queries --*/
+    @media (max-width: 992px) {
+      .social a {
+        font-size: 4em;
+        padding: 2rem;
+      }
+      }
+    @media (max-width: 768px) {
+      .carousel-caption  {
+        top: 45%;
+      }
+  
+      .carousel-caption h1{
+        font-size: 350%;
+    
+      } 
+     .carousel-caption h3{
+       font-size: 140%;
+       font-weight: 400;
+      }
+  
+    }
+    
+    @media (max-width: 576px) {
+      
+    }
+    
+    /*---Firefox Bug Fix --*/
+    .carousel-item {
+      transition: -webkit-transform 0.7s ease;
+      transition: transform 0.7s ease;
+      transition: transform 0.7s ease, -webkit-transform 0.5s ease;
+      -webkit-backface-visibility: visible;
+      backface-visibility: visible;
+    }
+    
+    /*--- Bootstrap Padding Fix --*/
+    [class*="col-"] {
+        padding: 1rem;
+    }
+    
+    
+    
+    
+
+    
